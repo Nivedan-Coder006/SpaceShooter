@@ -83,7 +83,7 @@ function createObstacle(){
 		obstacle.addImage(obstacleImg);
 		obstacle.scale = 0.25;
 		obstacle.lifeTime = 800;
-		obstacle.debug = true;
+		
 		obstacle.setCollider("circle",50,50,100)
 		obstacleGrp.add(obstacle);
 		obstacleGrp.setVelocityYEach(4);
